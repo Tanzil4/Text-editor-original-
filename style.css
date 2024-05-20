@@ -1,0 +1,46 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+background-color: rgb(24, 85, 85);
+}
+.toolbar {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+   flex-wrap: wrap;
+}
+.toolbar button {
+    padding: 10px;
+    font-size: 20px;
+margin: 10px;
+background-color: rgb(207, 203, 203);
+border: none;
+border-radius: 10px;
+
+}
+.toolbar button:hover{
+    opacity: 90%;
+    box-shadow: 1px 5px 10px gray;
+}
+.text-area {
+    width: 70%;
+    
+border: 1px solid rgb(187, 181, 181);
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+margin-top: 40px;
+border-radius: 20px;
+background-color: antiquewhite;
+min-height: 70vh;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

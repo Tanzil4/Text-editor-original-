@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="toolbar">
+        <button onclick="formatText('bold')">Bold</button>
+        <button onclick="formatText('italic')">Italic</button>
+        <button onclick="formatText('justifyLeft')">Justify Left</button>
+        <button onclick="formatText('justifyCenter')">Justify Center</button>
+        <button onclick="formatText('justifyRight')">Justify Right</button>
+        <button onclick="changeFontSize('increase')">Increase Font Size</button>
+        <button onclick="changeFontSize('decrease')">Decrease Font Size</button>
+    </div>
+    <div class="main">
+        <div contenteditable="true" class="text-area"></div>
+    </div>
+   <script src="./app.js"></script>
+</body>
+</html>
